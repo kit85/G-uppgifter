@@ -1,0 +1,5 @@
+/*display. flytta upp texten */
+.d-flex {display: flex; }
+    
+/*flex. gör att boxen  bli breddare */
+.flex-grow {flex-grow: 1; }  
