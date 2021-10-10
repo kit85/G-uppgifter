@@ -26,7 +26,7 @@
         <!--Colored Bars-->
         <!--skapa en klass som heter d-flex-->
         <div class="d-flex">
-            <!--anropa färgen på base.css texten samt anropa från layout bar height -->
+            <!--anropa färgen på base.css texten samt anropa från layout bar height  färg stecken överst-->
             <div class="flex-grow bg-warning bar-height"></div>
             <div class="flex-grow bg-success bar-height"></div>
             <div class="flex-grow bg-danger bar-height"></div>
@@ -44,10 +44,11 @@
         </div>
         <!--skapa en klasss och anropa metoden flex samt ändra mellanrum-->
         <nav class="d-flex max-width justify-content-between align-item-center mx-auto p-6">
-            <!--logos bredd samt bilden-->
+            <!--storlek på bilden  samt lägger in bild-->
             <img class="logo-width" src="logo-school.png">
 
             <!--länkarnar-->
+            <!--home-->
             <div class="d-flex justify-content-between">
                 <a href="#" class="d-flex flex-column align-item-center tex-decoration-non">
                     <div class="d-flex align-item-center justify-content-between bg-info p-4 circle shadow-sm">
@@ -56,6 +57,7 @@
                     <span class="text-info mt-4 lh-sm">Home</span>
                 </a>
 
+                <!--store-->
                 <a href="#" class="d-flex flex-column align-item-center tex-decoration-non">
                     <div class="d-flex align-item-center justify-content-between bg-cozy p-4 circle shadow-sm">
                         <i class="fas fa-store text-white"></i>
@@ -63,6 +65,7 @@
                     <span class="text-cozy mt-4 lh-sm">Store</span>
                 </a>
 
+                <!--courses-->
                 <a href="#" class="d-flex flex-column align-item-center tex-decoration-non">
                     <div class="d-flex align-item-center justify-content-between bg-success p-4 circle shadow-sm">
                         <i class="fas fa-user-graduate text-white"></i>
@@ -70,6 +73,7 @@
                     <span class="text-success mt-4 lh-sm">Courses</span>
                 </a>
 
+                <!--blogg-->
                 <a href="#" class="d-flex flex-column align-item-center tex-decoration-non">
                     <div class="d-flex align-item-center justify-content-between bg-warning p-4 circle shadow-sm">
                         <i class="fas fa-blog text-white"></i>
@@ -80,20 +84,21 @@
             </div>
 
 
-
+            <!--shoopin basket-->
             <div class="d-flex max-width justify-content-between">
                 <a href="#" class="d-flex flex-column align-item-center tex-decoration-non position-relative">
                     <div class="d-flex align-item-center justify-content-between bg-cozy border-radius p-4 shadow-sm">
                         <i class="fas fa-shopping-basket text-white"></i>
                     </div>
-                    <span class="text-white position-absolute circle bg-success border-small-white icon-badge text-size-xss">3</span>
+                    <span
+                        class="text-white position-absolute circle bg-success border-small-white icon-badge text-size-xss">3</span>
                 </a>
 
                 <a href="#" class="d-flex flex-column align-item-center tex-decoration-non position-relative">
                     <div class="d-flex align-item-center justify-content-between bg-info border-radius p-4 shadow-sm">
                         <i class="fas fa-bars text-white"></i>
                     </div>
-                   
+
                 </a>
 
 
@@ -101,9 +106,10 @@
         </nav>
 
         <!--color bars-->
+        <!--färg strecken under-->
         <div class="d-flex">
 
-            <!--anropa färgen på base.css texten samt anropa från layout höjden -->
+
             <div class="flex-grow bg-warning bar-height"></div>
             <div class="flex-grow bg-success bar-height"></div>
             <div class="flex-grow bg-danger bar-height"></div>
@@ -119,7 +125,7 @@
             <div class="flex-grow bg-cozy bar-height"></div>
 
         </div>
-        
+
         <!--drop down nav (small devices)-->
         <div class="mx-6 d-none">
             <a href="#" class="d-flex flex-row-reverse  align-item-center tex-decoration-non p-6 border-bottom-xs">
@@ -128,7 +134,7 @@
                 </div>
                 <span class="text-info mr-4 ">Home</span>
             </a>
-           
+
             <a href="#" class="d-flex flex-row-reverse   align-item-center tex-decoration-non p-6 border-bottom-xs">
                 <div class="d-flex align-item-center justify-content-between bg-cozy p-4 circle shadow-sm">
                     <i class="fas fa-store text-white"></i>
@@ -151,13 +157,56 @@
             </a>
 
         </div>
-        
-      
-
-
 
 
     </header>
+
+    <section class="overflow-hidden">
+        <figure class="d-flex position-relative slider-width slider-animation">
+
+            <div class="slider-container position-relative ">
+                <div class="position-absolute centerXY bg-dark-transparent text-light text-center p-4  ">
+                    <h1>School Website</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <img src="Slider/img-1.jpg" class="slider image" alt="Childgren at school">
+
+            </div>
+           
+            <div class="slider-container position-relative ">
+                <div class="position-absolute centerXY bg-dark-transparent text-light text-center p-4  ">
+                    <h1>School Website</h1>
+                    <p>Ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <img src="Slider/img-2.jpg" class="slider image" alt="Childgren at school">
+
+            </div>
+           
+            <div class="slider-container position-relative ">
+                <div class="position-absolute centerXY bg-dark-transparent text-light text-center p-4  ">
+                    <h1>School Website</h1>
+                    <p>dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <img src="Slider/img-3.jpg" class="slider image" alt="Childgren at school">
+
+            </div>
+          
+            <div class="slider-container position-relative ">
+                <div class="position-absolute centerXY bg-dark-transparent text-light text-center p-4  ">
+                    <h1>School Website</h1>
+                    <p> sit amet consectetur adipisicing elit.</p>
+                </div>
+                <img src="Slider/img-4.jpg" class="slider image" alt="Childgren at school">
+
+            </div>
+
+
+
+
+        </figure>
+
+
+    </section>
 
 </body>
 
