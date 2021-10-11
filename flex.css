@@ -9,6 +9,8 @@
 .flex-row-reverse {flex-direction: row-reverse;} /*spegelvänt*/
 
 /*align and justify. skapa mellanrummet mellan bild eller texter */
-.justify-content-between {justify-content:space-between ; }
+.justify-content-between {justify-content:space-between ; } /*centrerar innehållet*/
+.justify-content-center{justify-content: center;}
 /*centreras*/
 .align-item-center {align-items: center;}
+

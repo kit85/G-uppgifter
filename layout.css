@@ -38,7 +38,7 @@
 .mb-15, .my-15 {margin-bottom: var(--distance-15);}
 
 .mr-4, .mx-4 {margin-right: var(--distance-4);} /*avståndet höger sidan*/
-.ml-4, .mx-4 {margin-left: var(--distance-4);} /*avståndet på vönster sida*/
+.ml-4, .mx-4 {margin-left: var(--distance-4);} /*avståndet på vänster sida*/
 .mr, .mx-6 {margin-right: var(--distance-6);}
 .ml, .mx-6 {margin-left: var(--distance-6);}
 
@@ -52,7 +52,7 @@
 .p-15 {padding: var(--distance-15); }
 
 /*typography ta bor understreck*/
-.tex-decoration-non { text-decoration: none;}
+.text-decoration-none { text-decoration: none;}
 .text-center {text-align: center;} /*centrear texten*/
 
 .text-size-xss {font-size: var(--display-xxs); }
