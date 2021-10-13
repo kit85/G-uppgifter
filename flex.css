@@ -12,6 +12,7 @@
 
 /*align and justify. skapa mellanrummet mellan bild eller texter */
 .justify-content-between {justify-content:space-between ; } /*mellanrum*/
-.justify-content-center{justify-content: center;}  /*centreras*/
+.justify-content-center {justify-content: center;}  /*centreras*/
 .align-item-center {align-items: center;}
+.justify-content-around {justify-content: space-around;}
 
