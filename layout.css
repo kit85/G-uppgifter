@@ -1,5 +1,6 @@
 /*widths, max bredd*/
 .max-width {max-width: 192rem ;}
+.card-width {max-width:60rem ; }
 
 /*position*/
 .position-relative {position: relative !important ; }
@@ -63,6 +64,7 @@
 .text-decoration-none { text-decoration: none;}
 .text-center {text-align: center;} /*centrear texten*/
 .text-uppercase {text-transform: uppercase;}/*gör texten till stora bokstäver*/
+.text-bold {font-weight: bold;}
 
 .text-size-xss {font-size: var(--display-xxs); }
 .text-size-xs {font-size: var(--display-xs); }
@@ -115,6 +117,8 @@ nav div a:not(:first-child) {margin-left: var(--distance-12);}
 
 /*images bredden på bilder*/
 .logo-width {max-width:  13rem; ;}
+.img-lg-width  {max-width: 60%;}
+
 
 /*slidshow*/
 .slider-width {width: 400% ;} /*100% per image*/
