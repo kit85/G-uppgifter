@@ -61,7 +61,7 @@
   --border-radius-sm: .25rem;
   --border-success: .2rem solid var(--border-color-succes);
   /*ta bort en border*/
-  --border-transparent: .1rem solid var(--color-transparent);
+  --border-transparent: .1rem solid var(--color-transparent);/*tar bort border*/
   
   
   
