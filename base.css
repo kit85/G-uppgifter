@@ -93,7 +93,7 @@ body{
     line-height: 1.6;
     color: var(--color-dark);
     font-size: var(--display-sm);
-    min-height:100vh; /*full höjd*/
+    min-height: 100vh; /*full höjd*/
 }
 /*skapa h1 till h6 som ett eget klass och sedan ändra fett stil och mellanrum*/
 .h1, .h2, .h3, .h4, .h5, .h6, .h1, h2, h3, h4, h5, h6 {font-family: "Dosis", "Open Sans, sans-serif";font-weight: 700; letter-spacing: .05rem;}
@@ -121,7 +121,7 @@ body{
 .text-warning {color: var(--color-warning);}
 .text-danger {color: var(--color-danger);}
 .text-light {color:var(--color-light);}
-.text-dark {color:var(--color-dark)}
+.text-dark {color:var(--color-dark);}
 .text-white {color:var(--color-white);}
 .text-cozy {color: var(--color-cozy);}
 
