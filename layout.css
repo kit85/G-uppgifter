@@ -57,14 +57,18 @@
 /*utrymmet för höger sidan och vänster sidan*/
 .pr-4, .px-4 {padding-right:var(--distance-4) ; }
 .pl-4, .px-4 {padding-left:var(--distance-4) ; }
+
 .pr-12, .px-12 {padding-right:var(--distance-12) ; }
 .pl-12, .px-12 {padding-left:var(--distance-12) ; }
+
+.pt-2, .py-2 {padding-top:var(--distance-2) ; }
+.pb-2, .py-2 {padding-bottom:var(--distance-2) ; }
 
 /*typography ta bor understreck*/
 .text-decoration-none { text-decoration: none;}
 .text-center {text-align: center;} /*centrear texten*/
 .text-uppercase {text-transform: uppercase;}/*gör texten till stora bokstäver*/
-.text-bold {font-weight: bold;}
+.text-bold {font-weight: bold;} /*fet stil*/
 
 .text-size-xss {font-size: var(--display-xxs); }
 .text-size-xs {font-size: var(--display-xs); }
@@ -81,8 +85,8 @@
 
 
 /*circle*/
-.circle {border-radius: 100% }
-.circle-lg {width: 15rem ; height: 15rem;}
+.circle {border-radius: 100% } /*gör en cirkel*/
+.circle-lg {width: 15rem ; height: 15rem;} /*storlek på cirkel*/
 
 
 
@@ -99,10 +103,11 @@ nav div a:not(:first-child) {margin-left: var(--distance-12);}
 }
 
 /*border*/
-.border-radius {border-radius: var(--border-radius-sm);}
+.border-radius {border-radius: var(--border-radius-sm);} /*gör kanterna mer rund*/
 .border-small-white {border: var(--border-xs-white);}
 .border-bottom-xs {border-bottom: var(--border-xs);}
 .border-sm {border:var(--border-sm) ; }
+.border-lg {border: var(--border-lg);}
 .border-transparent {border: var(--border-transparent);}
 
 
@@ -143,3 +148,8 @@ nav div a:not(:first-child) {margin-left: var(--distance-12);}
 .icon-feature { width: 7.6rem; height: 7.6rem; padding: 0.375rem; }
 .icon-circle { width: 6.2rem; height: 6.2rem; line-height: 6rem; }
 
+/*Statistics*/
+.statistics-image {
+    background-image: url('fun-facts/fun-facts-bg-img.jpg');
+    background-repeat: no-repeat; background-size: cover; background-position: center ;
+}
